@@ -4,17 +4,16 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
 
+Copy .env.example file to .env file:
+
+```bash
+$ cp .env.example .env
+```
+
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install --legacy-peer-deps
-
-# pnpm
-pnpm install --shamefully-hoist
+$ npm install --legacy-peer-deps
 ```
 
 ## Development Server
@@ -22,7 +21,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+$ npm run dev
 ```
 
 ## Production
@@ -30,13 +29,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+$ npm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+$ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
